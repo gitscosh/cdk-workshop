@@ -2,7 +2,6 @@ import * as cdk from 'aws-cdk-lib';
 import * as lambda from 'aws-cdk-lib/aws-lambda';
 import * as dynamodb from 'aws-cdk-lib/aws-dynamodb';
 import {Construct} from 'constructs';
-import { DynamoEventSource } from 'aws-cdk-lib/aws-lambda-event-sources';
 
 export interface HitCounterProps {
     /** the function for which we want to count url hits **/
